@@ -2,7 +2,7 @@
 #include<math.h>
 #include<iostream>
 using namespace std;
-void main()
+int main()
 {
 	float dist,x1,y1,x2,y2;
 	printf("Informe o valor da cooordenada x1.\n");
@@ -15,5 +15,5 @@ void main()
 	scanf("%f", &y2);
 	dist=sqrt(pow((x2-x1),2)+pow((y2-y1),2));
 	printf("A distancia entre os dois pontos eh:\n %f\n",dist);
-	system("pause");
+	return 0;
 }

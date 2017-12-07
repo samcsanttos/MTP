@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
-void main ()
+int main ()
 {
 int n,i, maior, menor; 
 int vetor[1000];
@@ -20,5 +20,5 @@ for(i=0;i<n;i++)
 		menor=vetor[i];
 }
 printf("\nO maximo eh:\n%d" "\nO minimo eh:\n%d\n", maior, menor);
-system("pause");
+return 0;
 }

@@ -2,7 +2,7 @@
 #include<ctype.h>
 #include<iostream>
 using namespace std;
-void main()
+int main()
 {
 	char Frase[200];
 	printf("Escreva uma frase:\n");
@@ -10,5 +10,5 @@ void main()
 		for(int i=0;Frase[i]!='\0';i++)
 			Frase[i]=(toupper(Frase[i]));
 		printf("A frase toda maiuscula eh:\n %s" , Frase);
-		system("pause");
+		return 0;
 }

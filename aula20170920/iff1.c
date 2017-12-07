@@ -16,5 +16,5 @@ int main(){
     }
     printf("são %d vezes.", conta);
 
-system("pause");
+return 0;
 }

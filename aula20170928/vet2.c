@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
-void main ()
+int main ()
 
 {
 	int vetor [10];
@@ -24,5 +24,5 @@ void main ()
 	{
 		printf("%d",vetor[k]);
 	}
-	system("pause");
+	return 0;
 }

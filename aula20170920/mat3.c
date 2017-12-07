@@ -2,7 +2,7 @@
 #include<math.h>
 #include<iostream>
 using namespace std;
-void main()
+int main()
 {
 	float n,b,logaritimo;
 	printf("Informe um numero.\n");
@@ -11,5 +11,5 @@ void main()
 	scanf("%f", &b);
 	logaritimo=(log10(n))/(log10(b));
 	printf("O valor do logaririmo de n na base b eh:\n %f\n",logaritimo);
-	system("pause");
+	return 0;
 }

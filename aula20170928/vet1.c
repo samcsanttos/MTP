@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
-void main ()
+int main ()
 
 {
 	int vetor [1000],n,i,j,soma=0,media;
@@ -16,5 +16,5 @@ void main ()
 		media=soma/1000;
 	}
 	printf("A media eh:%d \n\n",media);
-	system("pause");
+	return 0;
 }

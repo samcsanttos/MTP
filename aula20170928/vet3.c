@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
-void main ()
+int main ()
 
 {
 	int vetor [10];
@@ -19,5 +19,5 @@ void main ()
 	}
 	printf("\nA somatoria eh:\n%d\n" "\nO produto eh:\n%d\n", soma, produto);
 
-	system("pause");
+	return 0;
 }

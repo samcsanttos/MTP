@@ -2,7 +2,7 @@
 #include<math.h>
 #include<iostream>
 using namespace std;
-void main()
+int main()
 {
 	float a,b,c,ang;
 	printf("Informe o valor do lado b do triangulo.\n");
@@ -13,5 +13,5 @@ void main()
 	scanf("%f", &ang);
 	a=sqrt(pow(b,2)+pow(c,2)-(2*b*c*cos(ang)));
 	printf("O valor do lado a eh:\n %f\n",a);
-	system("pause");
+	return 0;
 }

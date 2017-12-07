@@ -2,7 +2,7 @@
 #include<stdio.h>
 #include<math.h>
 using namespace std;
-void main ()
+int main ()
 {
 	int  real, imaginario, conj, multR, multI, multA, soma;
 	printf("Digite a parte real do  numero complexo.\n");
@@ -15,5 +15,5 @@ void main ()
 	multA= imaginario*conj;
 	soma= multR + multA*(-1);
 	printf("O resultado eh:\n %d + %d*i",soma,multI);
-	system("pause");
+	return 0;
 }

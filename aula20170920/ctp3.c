@@ -1,5 +1,5 @@
 using namespace std;
-void main()
+int main()
 {
 	int cont=0;
 	char Frase[200];
@@ -11,5 +11,5 @@ void main()
 		cont++;
 	}
 	printf("O numero de caracteres contidos na frase eh:\n %d\n" , cont);
-	system("pause");
+	return 0;
 }

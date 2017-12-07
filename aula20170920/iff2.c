@@ -1,7 +1,7 @@
 #include<iostream>
 #include<stdio.h>
 using namespace std;
-void main()
+int main()
 {
 	int n;
 	float somaf=0, invertf;
@@ -16,5 +16,5 @@ void main()
 		somad= somad + invertd;
 	printf("O resultado eh:\n %.15f\n",somaf);
 	printf("O resultado eh:\n %.15lf\n",somad);
-	system("pause");
+	return 0;
 }

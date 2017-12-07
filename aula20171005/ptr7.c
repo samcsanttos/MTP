@@ -1,7 +1,7 @@
 #include<iostream>
 #include<stdio.h>
 using namespace std;
-void main ()
+int main ()
 {
 	long int vetor[4]={0};
 	int i;
@@ -21,7 +21,7 @@ void main ()
 		printf("%c",*(p+i));
 	}
 	printf("\n\n\n");
-	system("pause");
+	return 0;
 }
 
 		

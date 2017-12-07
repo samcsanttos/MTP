@@ -1,14 +1,14 @@
 #include<iostream>
 #include<stdio.h>
 using namespace std;
-void fracao (int* a, int* b, int* c, int* d)
+int fracao (int* a, int* b, int* c, int* d)
 {
 	*a=*a**d + *b**c;
 	*b=*c**d;
 	printf("valor a=%d \n", *a);
 	printf("valor b=%d \n", *b);
 }
-void main()
+int main()
 {
 	int a,b,c,d;
 	    printf("Informe o valor do numerador a.\n");
@@ -22,7 +22,7 @@ void main()
 		fracao(&a,&b,&c,&d);
 		printf("O valor do numerador eh: a=%d\n", a);
 		printf("O valor do denominador eh: b=%d\n",b);
-		system("Pause");
+		return 0;
 }
 
 		

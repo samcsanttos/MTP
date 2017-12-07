@@ -3,7 +3,7 @@
 #include <conio.h>
 #include <string.h>
 
-void inversao(char *nome)
+int inversao(char *nome)
 {
 	    int x,tam;
 	    tam=strlen(nome);
@@ -11,7 +11,7 @@ void inversao(char *nome)
 		printf("%c",nome[x]);
 }
 
-void main () 
+int main () 
 {
 	int x,tam;
 	char nome[30];

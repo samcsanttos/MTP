@@ -2,7 +2,7 @@
 #include<stdio.h>
 #include<math.h>
 using namespace std;
-void main ()
+int main ()
 {
 	int  creal, cimagi, real1, real2, im1, im2;
 	printf("Digite a parte real do primeiro numero complexo.\n");
@@ -16,7 +16,7 @@ void main ()
 	creal= real1 + real2;
 	cimagi= (im1 + im2);
 	printf("A soma dos numeros complexos eh:\n %d + %d*i",creal,cimagi);
-	system("pause");
+	return 0;
 }
 
 
